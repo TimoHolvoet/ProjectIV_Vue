@@ -11,7 +11,7 @@
     <a href="../assets/heart.usdz">iMessage Heart Tap-back</a>
     <p>file hosted op github:</p>
     <a
-      href="https://github.com/TimoHolvoet/ProjectIV/blob/master/ar_js/vue_test/src/assets/usdz/toy_drummer.usdz"
+      href="https://project-4-th.herokuapp.com/assets/usdz/toy_drummer.usdz"
     >Toydrummer!</a>
     
     <p>extern gehoste usdz file: (werkend)</p>
