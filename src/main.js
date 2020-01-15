@@ -5,7 +5,12 @@ import store from './store'
 import './registerServiceWorker'
 
 Vue.config.productionTip = false
-
+Vue.config.ignoredElements = [
+  'a-scene',
+  'a-entity',
+  'a-camera',
+  'a-box'
+]
 new Vue({
   router,
   store,

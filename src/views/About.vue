@@ -1,19 +1,12 @@
 <template>
   <div class="about">
-    <h1>Testpagina</h1>
-    <p>lokaal ingeladen usdz file:</p>
-
-    <a rel="ar" href="assets/heart.usdz">
-      <img src="../assets/logo.png" alt />
-    </a>
-
-    <p>lokaal ingeladen usdz file:</p>
-    <a href="../assets/heart.usdz">iMessage Heart Tap-back</a>
-    <p>file hosted op github:</p>
-    <a
-      href="https://project-4-th.herokuapp.com/assets/usdz/toy_drummer.usdz"
-    >Toydrummer!</a>
+    <h1>USDZ</h1>
     
+    <p>file hosted op server:</p>
+    <a href="http://student.howest.be/timo.holvoet/usdz/toy_drummer.usdz">Toydrummer!</a>
+
+    <a href="http://student.howest.be/timo.holvoet/usdz/housetest.usdz">Huisplant!</a>
+
     <p>extern gehoste usdz file: (werkend)</p>
     <a href="https://webkit.org/demos/ar/heart.usdz">iMessage Heart Tap-back</a>
     <!-- <model-viewer
