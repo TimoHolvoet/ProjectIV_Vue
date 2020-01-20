@@ -3,7 +3,8 @@
     <div id="nav">
       <router-link to="/">Overview</router-link>|
       <router-link to="/about">Usdz</router-link>|
-      <router-link to="/arjs">Ar.js</router-link>
+      <router-link to="/arjs">Ar.js</router-link>|
+      <router-link to="/sceneViewer">SceneViewer</router-link>
     </div>
     <router-view />
   </div>
@@ -16,6 +17,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  height: 100%;
 }
 
 #nav {
