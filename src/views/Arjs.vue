@@ -21,7 +21,7 @@
 
     <a-marker preset="hiro">
 
-      <a-gltf-model scale=".01 .01 .01" src="https://raw.githubusercontent.com/TimoHolvoet/ProjectIV_Vue/master/src/assets/gltf/scene.gltf"></a-gltf-model>
+      <a-gltf-model scale="1 1 1" src="https://raw.githubusercontent.com/TimoHolvoet/ProjectIV_Vue/master/src/assets/gltf/trop_flower_set_01.gltf"></a-gltf-model>
     </a-marker>
     <a-entity camera></a-entity>
   </a-scene>
