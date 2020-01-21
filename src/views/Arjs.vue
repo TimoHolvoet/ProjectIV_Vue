@@ -11,7 +11,7 @@
   	<a-entity camera></a-entity>
   </a-scene>-->
 
-  <a-scene stats embedded arjs="trackingMethod: best; debugUIEnabled: true" class="setSize">
+  <a-scene stats embedded arjs="trackingMethod: best; debugUIEnabled: false" class="setSize">
     <!-- <a-assets>
       <a-asset-item
         id="animated-asset"
@@ -21,7 +21,7 @@
 
     <a-marker preset="hiro">
 
-      <a-gltf-model position="0 0.5 0" scale="0.8 0.8 0.8" src="https://raw.githubusercontent.com/TimoHolvoet/ProjectIV_Vue/master/src/assets/glb/untitled_02.glb"></a-gltf-model>
+      <a-gltf-model position="0 0 0" scale="2 2 2" src="https://raw.githubusercontent.com/TimoHolvoet/ProjectIV_Vue/master/src/assets/gltf/kamerplant_1.glb"></a-gltf-model>
     </a-marker>
     <a-entity camera></a-entity>
   </a-scene>

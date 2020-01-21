@@ -1,32 +1,27 @@
 <template>
-  <!-- <a-scene arjs>
-    <a-marker preset="hiro">
-      <a-box position="0 0 0" rotation="0 0 0" color="#4CC3D9"></a-box>
-
-    </a-marker>
-  </a-scene> -->
-
-      <a-scene stats embedded arjs='trackingMethod: best; debugUIEnabled: false'>
-  	<a-marker preset="hiro">
-      <a-entity>
-      <a-box position='0 0 0' material='color: red;'>
-        <!-- <a-animation attribute="rotation"
-          dur="2000"
-          fill="forwards"
-          from="0 0 0"
-          to="360 360 360"
-          repeat="indefinite"></a-animation> -->
-      </a-box>
-      </a-entity>
-
-  	</a-marker>
-    </a-scene>
+  <div>
+    <div class="c-test">
+      <model-viewer
+        class="c-modelviewer-container"
+        ar
+        alt="A 3D model of a beautiful plant."
+        src="https://raw.githubusercontent.com/TimoHolvoet/ProjectIV_Vue/master/src/assets/gltf/untitled_02.glb"
+        ios-src="http://student.howest.be/timo.holvoet/usdz/kamerplant_1.usdz"
+      ></model-viewer>
+    </div>
+  </div>
 </template>
 
 <style lang="scss" scoped>
-.test {
-  height: 100%;
-  width: 100%;
+.c-modelviewer-container {
+  // height: 500px;
+  // width: calc(100vw - 40px);
+  // margin: 0 auto;
+}
+.c-test {
+  height: 100vh;
+  width: 100vw;
+  background-color: green;
 }
 </style>
 
