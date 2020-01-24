@@ -1,35 +1,18 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Overview</router-link>|
-      <router-link to="/about">Usdz</router-link>|
-      <router-link to="/arjs">Ar.js</router-link>|
-      <router-link to="/sceneViewer">SceneViewer</router-link>
-    </div>
     <router-view />
   </div>
 </template>
 
 <style lang="scss">
+@import "@/assets/style/screen";
+
 #app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: $font-stack-alpha, Helvetica, Arial, sans-serif;
   text-align: center;
-  color: #2c3e50;
-  height: 100%;
-}
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+  color: var(--font-color-primary);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 </style>
